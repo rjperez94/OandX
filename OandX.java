@@ -103,7 +103,7 @@ public class OandX implements UIButtonListener, UIMouseListener{
 
     public static void main(String[] args){
     	if(args.length == 0 || Integer.parseInt(args[0]) < Integer.parseInt(args[1])) {
-    		throw new IllegalArgumentException("First argument must be board dimension. Seccond argument must be how many cells to win. First argument must be >= second argument");
+    		throw new IllegalArgumentException("First argument must be board dimension. Second argument must be how many cells to win. First argument must be >= second argument");
     	}
     	new OandX(args[0], args[1]);
     }        
